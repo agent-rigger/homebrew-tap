@@ -10,28 +10,28 @@
 class AgentRigger < Formula
   desc "Package manager for AI coding assistant harness config"
   homepage "https://github.com/agent-rigger/agent-rigger"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/agent-rigger/agent-rigger/releases/download/v#{version}/agent-rigger-darwin-arm64"
-      sha256 "b640ed0717b38ec2380ad5e3a286785439656ef2614db20bbd7421bb2a98a964"
+      sha256 "ea8d178741703d39f233bafd4375de8493db1170183a6517076ab2f28534e44e"
     end
     on_intel do
       url "https://github.com/agent-rigger/agent-rigger/releases/download/v#{version}/agent-rigger-darwin-x64"
-      sha256 "6db0631e576efe4aad72de9162c7a9eb71fc68b4ed85d4ac36a37125ea73511c"
+      sha256 "44fb18d936c4ab4970e2062fa8fa6daec2594de00f93c2d408e93cdf9108ade7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/agent-rigger/agent-rigger/releases/download/v#{version}/agent-rigger-linux-arm64"
-      sha256 "44b89b96c163f446ab558d543173d17bd0d4bd47710196789e75b545265756fa"
+      sha256 "502921a38a8ab7080e8d90fbc78b1f68569bd36a66cac45a3c64084ec01f1134"
     end
     on_intel do
       url "https://github.com/agent-rigger/agent-rigger/releases/download/v#{version}/agent-rigger-linux-x64"
-      sha256 "c911ccdd978d3a0c3c3515fe012c7c5dd37f6783b096123b518d385bbfcd7368"
+      sha256 "9c9c61c0b5e3320c832a3bde09c7fc9158f813bf7ac46c2b1721a5d950474e24"
     end
   end
 
